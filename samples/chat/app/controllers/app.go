@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/hongrich/revel"
+	"github.com/teltech/revel"
 )
 
 type Application struct {

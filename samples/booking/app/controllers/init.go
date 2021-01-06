@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/hongrich/revel"
+import "github.com/teltech/revel"
 
 func init() {
 	revel.OnAppStart(Init)

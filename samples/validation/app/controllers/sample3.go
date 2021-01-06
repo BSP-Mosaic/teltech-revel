@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"github.com/hongrich/revel"
-	"github.com/hongrich/revel/samples/validation/app/models"
+	"github.com/teltech/revel"
+	"github.com/teltech/revel/samples/validation/app/models"
 )
 
 type Sample3 struct {

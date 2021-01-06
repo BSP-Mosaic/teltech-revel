@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hongrich/glog"
+	"github.com/golang/glog"
 	"github.com/robfig/config"
 )
 

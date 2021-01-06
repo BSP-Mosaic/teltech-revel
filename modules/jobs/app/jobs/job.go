@@ -6,9 +6,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hongrich/glog"
-	"github.com/hongrich/revel"
+	"github.com/golang/glog"
 	"github.com/robfig/cron"
+	"github.com/teltech/revel"
 )
 
 type Job struct {

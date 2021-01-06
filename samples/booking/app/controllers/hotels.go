@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hongrich/revel"
-	"github.com/hongrich/revel/samples/booking/app/models"
-	"github.com/hongrich/revel/samples/booking/app/routes"
+	"github.com/teltech/revel"
+	"github.com/teltech/revel/samples/booking/app/models"
+	"github.com/teltech/revel/samples/booking/app/routes"
 	"golang.org/x/crypto/bcrypt"
 )
 

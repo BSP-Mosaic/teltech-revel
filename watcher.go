@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hongrich/glog"
+	"github.com/golang/glog"
 	"github.com/rjeczalik/notify"
 )
 

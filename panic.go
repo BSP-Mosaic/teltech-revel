@@ -3,7 +3,7 @@ package revel
 import (
 	"runtime/debug"
 
-	"github.com/hongrich/glog"
+	"github.com/golang/glog"
 )
 
 // PanicFilter wraps the action invocation in a protective defer blanket that

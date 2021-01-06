@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/hongrich/glog"
+	"github.com/golang/glog"
 )
 
 type Hotel struct {
@@ -60,7 +60,7 @@ func (c Static) Serve(prefix, filepath string) Result {
 }
 
 func startFakeBookingApp() {
-	Init("prod", "github.com/hongrich/revel/samples/booking", "")
+	Init("prod", "github.com/teltech/revel/samples/booking", "")
 
 	// TODO: Disable logging.
 

@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hongrich/glog"
+	"github.com/golang/glog"
 )
 
 // ExecuteTemplate renders a template into a string.

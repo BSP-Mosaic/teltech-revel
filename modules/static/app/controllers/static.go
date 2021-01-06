@@ -5,8 +5,8 @@ import (
 	fpath "path/filepath"
 	"strings"
 
-	"github.com/hongrich/glog"
-	"github.com/hongrich/revel"
+	"github.com/golang/glog"
+	"github.com/teltech/revel"
 )
 
 type Static struct {

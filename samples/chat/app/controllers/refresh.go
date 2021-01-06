@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/hongrich/revel"
-	"github.com/hongrich/revel/samples/chat/app/chatroom"
-	"github.com/hongrich/revel/samples/chat/app/routes"
+	"github.com/teltech/revel"
+	"github.com/teltech/revel/samples/chat/app/chatroom"
+	"github.com/teltech/revel/samples/chat/app/routes"
 )
 
 type Refresh struct {

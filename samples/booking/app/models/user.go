@@ -2,7 +2,7 @@ package models
 
 import (
 	"fmt"
-	"github.com/hongrich/revel"
+	"github.com/teltech/revel"
 	"regexp"
 )
 

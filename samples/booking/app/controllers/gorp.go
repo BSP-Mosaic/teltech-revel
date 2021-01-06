@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/hongrich/glog"
-	r "github.com/hongrich/revel"
-	db "github.com/hongrich/revel/modules/db/app"
-	"github.com/hongrich/revel/samples/booking/app/models"
+	"github.com/golang/glog"
+	r "github.com/teltech/revel"
+	db "github.com/teltech/revel/modules/db/app"
+	"github.com/teltech/revel/samples/booking/app/models"
 	"golang.org/x/crypto/bcrypt"
 	"gopkg.in/gorp.v1"
 )

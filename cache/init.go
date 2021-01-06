@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hongrich/revel"
+	"github.com/teltech/revel"
 )
 
 func init() {

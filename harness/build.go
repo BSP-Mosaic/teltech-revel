@@ -13,8 +13,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/hongrich/glog"
-	"github.com/hongrich/revel"
+	"github.com/golang/glog"
+	"github.com/teltech/revel"
 )
 
 var importErrorPattern = regexp.MustCompile("cannot find package \"([^\"]+)\"")
@@ -259,8 +259,8 @@ package main
 import (
 	"flag"
 	"reflect"
-	"github.com/hongrich/glog"
-	"github.com/hongrich/revel"{{range $k, $v := $.ImportPaths}}
+	"github.com/golang/glog"
+	"github.com/teltech/revel"{{range $k, $v := $.ImportPaths}}
 	{{$v}} "{{$k}}"{{end}}
 )
 
@@ -312,7 +312,7 @@ func main() {
 const ROUTES = `// GENERATED CODE - DO NOT EDIT
 package routes
 
-import "github.com/hongrich/revel"
+import "github.com/teltech/revel"
 
 {{range $i, $c := .Controllers}}
 type t{{.StructName}} struct {}

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hongrich/glog"
+	"github.com/golang/glog"
 )
 
 var (

@@ -1,6 +1,6 @@
 package tests
 
-import "github.com/hongrich/revel"
+import "github.com/teltech/revel"
 
 type AppTest struct {
 	revel.TestSuite

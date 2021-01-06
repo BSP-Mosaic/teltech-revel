@@ -8,13 +8,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hongrich/glog"
+	"github.com/golang/glog"
 	"github.com/robfig/config"
 	"github.com/robfig/humanize"
 )
 
 const (
-	REVEL_IMPORT_PATH = "github.com/hongrich/revel"
+	REVEL_IMPORT_PATH = "github.com/teltech/revel"
 )
 
 var (
@@ -267,7 +267,7 @@ func addModule(name, importPath, modulePath string) {
 
 	// Hack: There is presently no way for the testrunner module to add the
 	// "test" subdirectory to the CodePaths.  So this does it instead.
-	if importPath == "github.com/hongrich/revel/modules/testrunner" {
+	if importPath == "github.com/teltech/revel/modules/testrunner" {
 		CodePaths = append(CodePaths, filepath.Join(BasePath, "tests"))
 	}
 }

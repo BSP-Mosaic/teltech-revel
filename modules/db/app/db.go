@@ -12,8 +12,8 @@ package db
 import (
 	"database/sql"
 
-	"github.com/hongrich/glog"
-	"github.com/hongrich/revel"
+	"github.com/golang/glog"
+	"github.com/teltech/revel"
 )
 
 var (

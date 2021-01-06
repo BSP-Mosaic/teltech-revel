@@ -24,8 +24,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/hongrich/glog"
-	"github.com/hongrich/revel"
+	"github.com/golang/glog"
+	"github.com/teltech/revel"
 )
 
 var (

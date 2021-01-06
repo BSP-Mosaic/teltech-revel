@@ -1,6 +1,6 @@
 package app
 
-import "github.com/hongrich/revel"
+import "github.com/teltech/revel"
 
 func init() {
 	// Filters is the default set of global filters.

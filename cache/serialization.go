@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/hongrich/glog"
+	"github.com/golang/glog"
 )
 
 // Serialize transforms the given value into bytes following these rules:

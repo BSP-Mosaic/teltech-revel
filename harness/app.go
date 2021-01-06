@@ -9,8 +9,8 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/hongrich/glog"
-	"github.com/hongrich/revel"
+	"github.com/golang/glog"
+	"github.com/teltech/revel"
 )
 
 // App contains the configuration for running a Revel app.  (Not for the app itself)

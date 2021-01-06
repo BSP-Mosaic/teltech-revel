@@ -3,7 +3,7 @@ package controllers
 import (
 	"bytes"
 	"fmt"
-	"github.com/hongrich/revel"
+	"github.com/teltech/revel"
 	"html"
 	"html/template"
 	"reflect"

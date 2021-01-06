@@ -2,10 +2,10 @@ package jobs
 
 import (
 	"fmt"
-	"github.com/hongrich/revel"
-	"github.com/hongrich/revel/modules/jobs/app/jobs"
-	"github.com/hongrich/revel/samples/booking/app/controllers"
-	"github.com/hongrich/revel/samples/booking/app/models"
+	"github.com/teltech/revel"
+	"github.com/teltech/revel/modules/jobs/app/jobs"
+	"github.com/teltech/revel/samples/booking/app/controllers"
+	"github.com/teltech/revel/samples/booking/app/models"
 )
 
 // Periodically count the bookings in the database.
@@ -13,7 +13,7 @@ type BookingCounter struct{}
 
 func (c BookingCounter) Run() {
 	bookings, err := controllers.Dbm.Select(models.Booking{},
-			`select * from Booking`)
+		`select * from Booking`)
 	if err != nil {
 		panic(err)
 	}

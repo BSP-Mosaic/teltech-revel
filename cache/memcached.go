@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/hongrich/glog"
+	"github.com/golang/glog"
 	"github.com/robfig/gomemcache/memcache"
 )
 

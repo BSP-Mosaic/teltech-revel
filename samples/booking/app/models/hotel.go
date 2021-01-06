@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/hongrich/revel"
+	"github.com/teltech/revel"
 )
 
 type Hotel struct {

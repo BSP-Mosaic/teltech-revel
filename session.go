@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hongrich/glog"
+	"github.com/golang/glog"
 	"github.com/streadway/simpleuuid"
 )
 

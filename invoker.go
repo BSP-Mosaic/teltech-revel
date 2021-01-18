@@ -3,7 +3,7 @@ package revel
 import (
 	"reflect"
 
-	"github.com/golang/glog"
+	"github.com/teltech/glog"
 	"golang.org/x/net/websocket"
 )
 

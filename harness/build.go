@@ -13,7 +13,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/teltech/glog"
 	"github.com/teltech/revel"
 )
 
@@ -259,7 +259,7 @@ package main
 import (
 	"flag"
 	"reflect"
-	"github.com/golang/glog"
+	"github.com/teltech/glog"
 	"github.com/teltech/revel"{{range $k, $v := $.ImportPaths}}
 	{{$v}} "{{$k}}"{{end}}
 )

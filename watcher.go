@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/golang/glog"
 	"github.com/rjeczalik/notify"
+	"github.com/teltech/glog"
 )
 
 // Listener is an interface for receivers of filesystem events.

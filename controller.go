@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/teltech/glog"
 	"golang.org/x/net/websocket"
 )
 

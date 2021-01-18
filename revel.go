@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/golang/glog"
 	"github.com/robfig/config"
 	"github.com/robfig/humanize"
+	"github.com/teltech/glog"
 )
 
 const (

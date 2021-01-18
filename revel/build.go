@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/golang/glog"
+	"github.com/teltech/glog"
 	"github.com/teltech/revel"
 	"github.com/teltech/revel/harness"
 )

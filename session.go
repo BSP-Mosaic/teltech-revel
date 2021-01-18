@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/glog"
 	"github.com/streadway/simpleuuid"
+	"github.com/teltech/glog"
 )
 
 // A signed cookie (and thus limited to 4kb in size).

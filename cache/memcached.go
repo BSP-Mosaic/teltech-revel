@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/golang/glog"
 	"github.com/robfig/gomemcache/memcache"
+	"github.com/teltech/glog"
 )
 
 // Wraps the Memcached client to meet the Cache interface.

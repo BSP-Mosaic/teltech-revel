@@ -6,7 +6,7 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/golang/glog"
+	"github.com/teltech/glog"
 )
 
 // Params provides a unified view of the request params.

@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/teltech/glog"
 	"github.com/teltech/revel"
 )
 

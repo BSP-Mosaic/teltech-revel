@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/teltech/glog"
 	"golang.org/x/net/websocket"
 )
 

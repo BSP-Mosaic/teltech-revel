@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/teltech/glog"
 )
 
 // A Binder translates between string parameters and Go data structures.

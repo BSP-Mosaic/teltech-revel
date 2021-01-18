@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"runtime"
 
-	"github.com/golang/glog"
+	"github.com/teltech/glog"
 )
 
 type ValidationError struct {

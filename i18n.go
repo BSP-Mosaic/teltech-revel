@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/golang/glog"
 	"github.com/robfig/config"
+	"github.com/teltech/glog"
 )
 
 const (

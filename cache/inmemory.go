@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/golang/glog"
 	"github.com/robfig/go-cache"
+	"github.com/teltech/glog"
 )
 
 type InMemoryCache struct {

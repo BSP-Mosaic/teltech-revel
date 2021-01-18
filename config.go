@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/golang/glog"
 	"github.com/robfig/config"
+	"github.com/teltech/glog"
 )
 
 // This handles the parsing of app.conf

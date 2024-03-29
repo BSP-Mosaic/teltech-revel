@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/streadway/simpleuuid"
-	"github.com/teltech/glog"
+	"github.com/BSP-Mosaic/glog"
 )
 
 // A signed cookie (and thus limited to 4kb in size).

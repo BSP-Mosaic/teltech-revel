@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/teltech/glog"
-	"github.com/teltech/revel"
-	"github.com/teltech/revel/harness"
+	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/revel"
+	"github.com/BSP-Mosaic/revel/harness"
 )
 
 var cmdBuild = &Command{
@@ -22,7 +22,7 @@ WARNING: The target path will be completely deleted, if it already exists!
 
 For example:
 
-    revel build github.com/teltech/revel/samples/chat /tmp/chat
+    revel build github.com/BSP-Mosaic/revel/samples/chat /tmp/chat
 `,
 }
 

@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/teltech/revel"
-	"github.com/teltech/revel/samples/chat/app/chatroom"
-	"github.com/teltech/revel/samples/chat/app/routes"
+	"github.com/BSP-Mosaic/revel"
+	"github.com/BSP-Mosaic/revel/samples/chat/app/chatroom"
+	"github.com/BSP-Mosaic/revel/samples/chat/app/routes"
 )
 
 type Refresh struct {

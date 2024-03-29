@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"net/http/pprof"
 
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/revel"
 )
 
 type Pprof struct {

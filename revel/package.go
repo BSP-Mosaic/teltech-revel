@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/revel"
 )
 
 var cmdPackage = &Command{
@@ -23,7 +23,7 @@ For package, run mode defaults to "prod".
 
 For example:
 
-    revel package github.com/teltech/revel/samples/chat
+    revel package github.com/BSP-Mosaic/revel/samples/chat
 `,
 }
 

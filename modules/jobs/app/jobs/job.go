@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 
 	"github.com/robfig/cron"
-	"github.com/teltech/glog"
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/revel"
 )
 
 type Job struct {

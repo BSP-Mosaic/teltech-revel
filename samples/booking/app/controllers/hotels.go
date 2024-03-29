@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/teltech/revel"
-	"github.com/teltech/revel/samples/booking/app/models"
-	"github.com/teltech/revel/samples/booking/app/routes"
+	"github.com/BSP-Mosaic/revel"
+	"github.com/BSP-Mosaic/revel/samples/booking/app/models"
+	"github.com/BSP-Mosaic/revel/samples/booking/app/routes"
 	"golang.org/x/crypto/bcrypt"
 )
 

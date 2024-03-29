@@ -12,8 +12,8 @@ package db
 import (
 	"database/sql"
 
-	"github.com/teltech/glog"
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/revel"
 )
 
 var (

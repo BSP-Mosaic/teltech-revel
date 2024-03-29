@@ -9,8 +9,8 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/teltech/glog"
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/revel"
 )
 
 // App contains the configuration for running a Revel app.  (Not for the app itself)

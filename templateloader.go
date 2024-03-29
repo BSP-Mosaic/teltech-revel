@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/teltech/glog"
+	"github.com/BSP-Mosaic/glog"
 )
 
 // TemplateLoader handles loading of templates, by passing them to the

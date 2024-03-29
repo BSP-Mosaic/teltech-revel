@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/teltech/glog"
+	"github.com/BSP-Mosaic/glog"
 )
 
 // ExecuteTemplate renders a template into a string.

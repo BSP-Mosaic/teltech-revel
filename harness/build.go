@@ -13,8 +13,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/teltech/glog"
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/revel"
 )
 
 var importErrorPattern = regexp.MustCompile("cannot find package \"([^\"]+)\"")
@@ -259,8 +259,8 @@ package main
 import (
 	"flag"
 	"reflect"
-	"github.com/teltech/glog"
-	"github.com/teltech/revel"{{range $k, $v := $.ImportPaths}}
+	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/revel"{{range $k, $v := $.ImportPaths}}
 	{{$v}} "{{$k}}"{{end}}
 )
 
@@ -312,7 +312,7 @@ func main() {
 const ROUTES = `// GENERATED CODE - DO NOT EDIT
 package routes
 
-import "github.com/teltech/revel"
+import "github.com/BSP-Mosaic/revel"
 
 {{range $i, $c := .Controllers}}
 type t{{.StructName}} struct {}

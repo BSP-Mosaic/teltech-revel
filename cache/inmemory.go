@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/robfig/go-cache"
-	"github.com/teltech/glog"
+	"github.com/BSP-Mosaic/glog"
 )
 
 type InMemoryCache struct {

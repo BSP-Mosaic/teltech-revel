@@ -3,7 +3,7 @@ package jobs
 import (
 	"fmt"
 	"github.com/robfig/cron"
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/revel"
 )
 
 const DEFAULT_JOB_POOL_SIZE = 10

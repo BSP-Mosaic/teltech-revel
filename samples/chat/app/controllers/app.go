@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/revel"
 )
 
 type Application struct {

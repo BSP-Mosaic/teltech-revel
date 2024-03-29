@@ -3,7 +3,7 @@ package controllers
 import (
 	"bytes"
 	"fmt"
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/revel"
 	"html"
 	"html/template"
 	"reflect"

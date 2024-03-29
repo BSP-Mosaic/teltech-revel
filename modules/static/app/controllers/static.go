@@ -5,8 +5,8 @@ import (
 	fpath "path/filepath"
 	"strings"
 
-	"github.com/teltech/glog"
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/revel"
 )
 
 type Static struct {

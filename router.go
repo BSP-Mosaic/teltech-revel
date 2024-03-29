@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/teltech/glog"
+	"github.com/BSP-Mosaic/glog"
 )
 
 type Route struct {

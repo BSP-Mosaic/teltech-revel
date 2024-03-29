@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/teltech/glog"
+	"github.com/BSP-Mosaic/glog"
 )
 
 type Request struct {

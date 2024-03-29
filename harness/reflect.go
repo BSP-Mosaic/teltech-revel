@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/teltech/glog"
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/revel"
 )
 
 // SourceInfo is the top-level struct containing all extracted information
@@ -26,7 +26,7 @@ type SourceInfo struct {
 	StructSpecs []*TypeInfo
 	// ValidationKeys provides a two-level lookup.  The keys are:
 	// 1. The fully-qualified function name,
-	//    e.g. "github.com/teltech/revel/samples/chat/app/controllers.(*Application).Action"
+	//    e.g. "github.com/BSP-Mosaic/revel/samples/chat/app/controllers.(*Application).Action"
 	// 2. Within that func's file, the line number of the (overall) expression statement.
 	//    e.g. the line returned from runtime.Caller()
 	// The result of the lookup the name of variable being validated.
@@ -45,7 +45,7 @@ type SourceInfo struct {
 // TypeInfo summarizes information about a struct type in the app source code.
 type TypeInfo struct {
 	StructName  string // e.g. "Application"
-	ImportPath  string // e.g. "github.com/teltech/revel/samples/chat/app/controllers"
+	ImportPath  string // e.g. "github.com/BSP-Mosaic/revel/samples/chat/app/controllers"
 	PackageName string // e.g. "controllers"
 	MethodSpecs []*MethodSpec
 
@@ -634,7 +634,7 @@ func getStructTypeDecl(decl ast.Decl) (spec *ast.TypeSpec, found bool) {
 
 // TypesThatEmbed returns all types that (directly or indirectly) embed the
 // target type, which must be a fully qualified type name,
-// e.g. "github.com/teltech/revel.Controller"
+// e.g. "github.com/BSP-Mosaic/revel.Controller"
 func (s *SourceInfo) TypesThatEmbed(targetType string) (filtered []*TypeInfo) {
 	// Do a search in the "embedded type graph", starting with the target type.
 	var (

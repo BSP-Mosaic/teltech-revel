@@ -2,10 +2,10 @@ package jobs
 
 import (
 	"fmt"
-	"github.com/teltech/revel"
-	"github.com/teltech/revel/modules/jobs/app/jobs"
-	"github.com/teltech/revel/samples/booking/app/controllers"
-	"github.com/teltech/revel/samples/booking/app/models"
+	"github.com/BSP-Mosaic/revel"
+	"github.com/BSP-Mosaic/revel/modules/jobs/app/jobs"
+	"github.com/BSP-Mosaic/revel/samples/booking/app/controllers"
+	"github.com/BSP-Mosaic/revel/samples/booking/app/models"
 )
 
 // Periodically count the bookings in the database.

@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/teltech/revel"
+	"github.com/BSP-Mosaic/revel"
 )
 
 type Hotel struct {

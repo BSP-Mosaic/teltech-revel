@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/robfig/config"
-	"github.com/teltech/glog"
+	"github.com/BSP-Mosaic/glog"
 )
 
 // This handles the parsing of app.conf

@@ -1,6 +1,6 @@
 package models
 
-import "github.com/teltech/revel"
+import "github.com/BSP-Mosaic/revel"
 
 type User struct {
 	Username        string

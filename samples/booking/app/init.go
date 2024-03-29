@@ -1,6 +1,6 @@
 package app
 
-import "github.com/teltech/revel"
+import "github.com/BSP-Mosaic/revel"
 
 func init() {
 	// Filters is the default set of global filters.

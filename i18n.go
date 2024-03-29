@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/robfig/config"
-	"github.com/teltech/glog"
+	"github.com/BSP-Mosaic/glog"
 )
 
 const (

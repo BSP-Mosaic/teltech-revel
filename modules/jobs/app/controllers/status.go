@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"github.com/robfig/cron"
-	"github.com/teltech/revel"
-	"github.com/teltech/revel/modules/jobs/app/jobs"
+	"github.com/BSP-Mosaic/revel"
+	"github.com/BSP-Mosaic/revel/modules/jobs/app/jobs"
 	"strings"
 )
 

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/robfig/gomemcache/memcache"
-	"github.com/teltech/glog"
+	"github.com/BSP-Mosaic/glog"
 )
 
 // Wraps the Memcached client to meet the Cache interface.

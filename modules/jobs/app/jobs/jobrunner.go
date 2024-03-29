@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/robfig/cron"
-	"github.com/BSP-Mosaic/revel"
+	"github.com/BSP-Mosaic/teltech-revel"
 )
 
 // Callers can use jobs.Func to wrap a raw func.

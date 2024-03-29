@@ -3,7 +3,7 @@ package revel
 import (
 	"runtime/debug"
 
-	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/teltech-glog"
 )
 
 // PanicFilter wraps the action invocation in a protective defer blanket that

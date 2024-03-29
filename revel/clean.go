@@ -15,7 +15,7 @@ Clean the Revel web application named by the given import path.
 
 For example:
 
-    revel clean github.com/BSP-Mosaic/revel/samples/chat
+    revel clean github.com/BSP-Mosaic/teltech-revel/samples/chat
 
 It removes the app/tmp directory.
 `,

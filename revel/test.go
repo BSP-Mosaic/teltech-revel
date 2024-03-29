@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/BSP-Mosaic/glog"
-	"github.com/BSP-Mosaic/revel"
-	"github.com/BSP-Mosaic/revel/harness"
-	"github.com/BSP-Mosaic/revel/modules/testrunner/app/controllers"
+	"github.com/BSP-Mosaic/teltech-glog"
+	"github.com/BSP-Mosaic/teltech-revel"
+	"github.com/BSP-Mosaic/teltech-revel/harness"
+	"github.com/BSP-Mosaic/teltech-revel/modules/testrunner/app/controllers"
 )
 
 var cmdTest = &Command{
@@ -25,7 +25,7 @@ Run all tests for the Revel app named by the given import path.
 
 For example, to run the booking sample application's tests:
 
-    revel test github.com/BSP-Mosaic/revel/samples/booking dev
+    revel test github.com/BSP-Mosaic/teltech-revel/samples/booking dev
 
 The run mode is used to select which set of app.conf configuration should
 apply and may be used to determine logic in the application itself.
@@ -71,7 +71,7 @@ func testApp(args []string) {
 	// Ensure that the testrunner is loaded in this mode.
 	testRunnerFound := false
 	for _, module := range revel.Modules {
-		if module.ImportPath == "github.com/BSP-Mosaic/revel/modules/testrunner" {
+		if module.ImportPath == "github.com/BSP-Mosaic/teltech-revel/modules/testrunner" {
 			testRunnerFound = true
 			break
 		}
@@ -81,7 +81,7 @@ func testApp(args []string) {
 
 You can add it to a run mode configuration with the following line:
 
-	module.testrunner = github.com/BSP-Mosaic/revel/modules/testrunner
+	module.testrunner = github.com/BSP-Mosaic/teltech-revel/modules/testrunner
 
 `)
 	}

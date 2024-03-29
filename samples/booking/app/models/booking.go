@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/BSP-Mosaic/revel"
+	"github.com/BSP-Mosaic/teltech-revel"
 	"gopkg.in/gorp.v1"
 )
 

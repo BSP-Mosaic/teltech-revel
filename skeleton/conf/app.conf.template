@@ -24,14 +24,14 @@ log.log_dir=log           # Directory to write file logs.
 # The default language of this application.
 i18n.default_language=en
 
-module.static=github.com/BSP-Mosaic/revel/modules/static
+module.static=github.com/BSP-Mosaic/teltech-revel/modules/static
 
 [dev]
 mode.dev=true
 results.pretty=true
 watch=true
 
-module.testrunner = github.com/BSP-Mosaic/revel/modules/testrunner
+module.testrunner = github.com/BSP-Mosaic/teltech-revel/modules/testrunner
 
 [prod]
 mode.dev=false

@@ -2,7 +2,7 @@ package models
 
 import (
 	"fmt"
-	"github.com/BSP-Mosaic/revel"
+	"github.com/BSP-Mosaic/teltech-revel"
 	"regexp"
 )
 

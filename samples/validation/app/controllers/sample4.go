@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"github.com/BSP-Mosaic/revel"
-	"github.com/BSP-Mosaic/revel/samples/validation/app/models"
+	"github.com/BSP-Mosaic/teltech-revel"
+	"github.com/BSP-Mosaic/teltech-revel/samples/validation/app/models"
 )
 
 type Sample4 struct {

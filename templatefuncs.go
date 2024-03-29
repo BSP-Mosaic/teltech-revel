@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/teltech-glog"
 )
 
 var (

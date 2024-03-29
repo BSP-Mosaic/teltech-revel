@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/BSP-Mosaic/revel"
+	"github.com/BSP-Mosaic/teltech-revel"
 )
 
 // Use a wrapper to differentiate logged panics from unexpected ones.

@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/BSP-Mosaic/revel"
-	"github.com/BSP-Mosaic/revel/samples/booking/app/models"
-	"github.com/BSP-Mosaic/revel/samples/booking/app/routes"
+	"github.com/BSP-Mosaic/teltech-revel"
+	"github.com/BSP-Mosaic/teltech-revel/samples/booking/app/models"
+	"github.com/BSP-Mosaic/teltech-revel/samples/booking/app/routes"
 	"golang.org/x/crypto/bcrypt"
 )
 

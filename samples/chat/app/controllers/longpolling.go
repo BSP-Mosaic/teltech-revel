@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"github.com/BSP-Mosaic/revel"
-	"github.com/BSP-Mosaic/revel/samples/chat/app/chatroom"
+	"github.com/BSP-Mosaic/teltech-revel"
+	"github.com/BSP-Mosaic/teltech-revel/samples/chat/app/chatroom"
 )
 
 type LongPolling struct {

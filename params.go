@@ -6,7 +6,7 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/teltech-glog"
 )
 
 // Params provides a unified view of the request params.

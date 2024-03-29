@@ -5,9 +5,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/BSP-Mosaic/glog"
-	"github.com/BSP-Mosaic/revel"
-	"github.com/BSP-Mosaic/revel/harness"
+	"github.com/BSP-Mosaic/teltech-glog"
+	"github.com/BSP-Mosaic/teltech-revel"
+	"github.com/BSP-Mosaic/teltech-revel/harness"
 )
 
 var cmdRun = &Command{
@@ -18,7 +18,7 @@ Run the Revel web application named by the given import path.
 
 For example, to run the chat room sample application:
 
-    revel run github.com/BSP-Mosaic/revel/samples/chat dev
+    revel run github.com/BSP-Mosaic/teltech-revel/samples/chat dev
 
 The run mode is used to select which set of app.conf configuration should
 apply and may be used to determine logic in the application itself.
@@ -27,7 +27,7 @@ Run mode defaults to "dev".
 
 You can set a port as an optional third parameter.  For example:
 
-    revel run github.com/BSP-Mosaic/revel/samples/chat prod 8080`,
+    revel run github.com/BSP-Mosaic/teltech-revel/samples/chat prod 8080`,
 }
 
 func init() {

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/BSP-Mosaic/revel"
+	"github.com/BSP-Mosaic/teltech-revel"
 )
 
 func init() {

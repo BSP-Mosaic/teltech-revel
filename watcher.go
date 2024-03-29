@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	"github.com/rjeczalik/notify"
-	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/teltech-glog"
 )
 
 // Listener is an interface for receivers of filesystem events.

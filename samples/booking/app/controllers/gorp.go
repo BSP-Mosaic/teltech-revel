@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/BSP-Mosaic/glog"
-	r "github.com/BSP-Mosaic/revel"
-	db "github.com/BSP-Mosaic/revel/modules/db/app"
-	"github.com/BSP-Mosaic/revel/samples/booking/app/models"
+	"github.com/BSP-Mosaic/teltech-glog"
+	r "github.com/BSP-Mosaic/teltech-revel"
+	db "github.com/BSP-Mosaic/teltech-revel/modules/db/app"
+	"github.com/BSP-Mosaic/teltech-revel/samples/booking/app/models"
 	"golang.org/x/crypto/bcrypt"
 	"gopkg.in/gorp.v1"
 )

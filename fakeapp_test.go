@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/BSP-Mosaic/glog"
+	"github.com/BSP-Mosaic/teltech-glog"
 )
 
 type Hotel struct {
@@ -60,7 +60,7 @@ func (c Static) Serve(prefix, filepath string) Result {
 }
 
 func startFakeBookingApp() {
-	Init("prod", "github.com/BSP-Mosaic/revel/samples/booking", "")
+	Init("prod", "github.com/BSP-Mosaic/teltech-revel/samples/booking", "")
 
 	// TODO: Disable logging.
 

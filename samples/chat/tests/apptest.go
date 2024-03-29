@@ -1,6 +1,6 @@
 package tests
 
-import "github.com/BSP-Mosaic/revel"
+import "github.com/BSP-Mosaic/teltech-revel"
 
 type ApplicationTest struct {
 	revel.TestSuite

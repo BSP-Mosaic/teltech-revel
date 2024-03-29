@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/BSP-Mosaic/revel"
+import "github.com/BSP-Mosaic/teltech-revel"
 
 type Application struct {
 	*revel.Controller

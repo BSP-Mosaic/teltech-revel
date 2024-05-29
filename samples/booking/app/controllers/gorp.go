@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/golang/glog"
+	"bendingspoons.com/glog"
 	r "github.com/BSP-Mosaic/teltech-revel"
 	db "github.com/BSP-Mosaic/teltech-revel/modules/db/app"
 	"github.com/BSP-Mosaic/teltech-revel/samples/booking/app/models"

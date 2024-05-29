@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 
 	"github.com/robfig/cron"
-	"github.com/golang/glog"
+	"bendingspoons.com/glog"
 	"github.com/BSP-Mosaic/teltech-revel"
 )
 

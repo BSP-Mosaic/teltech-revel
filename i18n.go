@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/robfig/config"
-	"github.com/golang/glog"
+	"bendingspoons.com/glog"
 )
 
 const (

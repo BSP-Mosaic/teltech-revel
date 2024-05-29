@@ -10,7 +10,7 @@ import (
 
 	"github.com/robfig/config"
 	"github.com/robfig/humanize"
-	"github.com/golang/glog"
+	"bendingspoons.com/glog"
 )
 
 const (

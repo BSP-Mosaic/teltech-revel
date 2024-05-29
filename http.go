@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/golang/glog"
+	"bendingspoons.com/glog"
 )
 
 type Request struct {

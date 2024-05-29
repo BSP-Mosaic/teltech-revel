@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/golang/glog"
+	"bendingspoons.com/glog"
 )
 
 // TemplateLoader handles loading of templates, by passing them to the

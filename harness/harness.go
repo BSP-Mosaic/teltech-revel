@@ -24,7 +24,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/golang/glog"
+	"bendingspoons.com/glog"
 	"github.com/BSP-Mosaic/teltech-revel"
 )
 

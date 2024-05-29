@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/glog"
+	"bendingspoons.com/glog"
 	"github.com/BSP-Mosaic/teltech-revel"
 	"github.com/BSP-Mosaic/teltech-revel/harness"
 	"github.com/BSP-Mosaic/teltech-revel/modules/testrunner/app/controllers"

@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/robfig/config"
-	"github.com/golang/glog"
+	"bendingspoons.com/glog"
 )
 
 // This handles the parsing of app.conf

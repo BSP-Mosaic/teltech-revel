@@ -5,7 +5,7 @@ import (
 	fpath "path/filepath"
 	"strings"
 
-	"github.com/golang/glog"
+	"bendingspoons.com/glog"
 	"github.com/BSP-Mosaic/teltech-revel"
 )
 

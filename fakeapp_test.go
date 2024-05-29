@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/BSP-Mosaic/teltech-glog"
+	"github.com/golang/glog"
 )
 
 type Hotel struct {

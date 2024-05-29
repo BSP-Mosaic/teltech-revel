@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/BSP-Mosaic/teltech-glog"
+	"github.com/golang/glog"
 )
 
 type Result interface {

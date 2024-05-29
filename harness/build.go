@@ -13,7 +13,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/BSP-Mosaic/teltech-glog"
+	"github.com/golang/glog"
 	"github.com/BSP-Mosaic/teltech-revel"
 )
 
@@ -259,7 +259,7 @@ package main
 import (
 	"flag"
 	"reflect"
-	"github.com/BSP-Mosaic/teltech-glog"
+	"github.com/golang/glog"
 	"github.com/BSP-Mosaic/teltech-revel"{{range $k, $v := $.ImportPaths}}
 	{{$v}} "{{$k}}"{{end}}
 )

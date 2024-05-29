@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"runtime"
 
-	"github.com/BSP-Mosaic/teltech-glog"
+	"github.com/golang/glog"
 )
 
 type ValidationError struct {
